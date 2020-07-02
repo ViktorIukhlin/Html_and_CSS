@@ -1,0 +1,35 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+h1,h2,h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 2em;
+}
+h1 {
+font-size: 32px;
+}
+table { 
+  border: 1px solid black;  
+ }
+th { 
+  text-align: left;  
+  background: #ccc;  
+  padding: 5px;  
+  border: 1px solid black; 
+ }
+td { 
+  padding: 5px;  
+  border: 1px solid black;  
+ }
+figure{
+float: right;
+font-style: italic;
+}
+.first{
+  margin: -90px -15px;
+}
+.second{
+  margin: 90px -12px;
+}

@@ -434,7 +434,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 84px;
 }
 .header__logo-pic{
@@ -468,29 +468,62 @@ body{
 
 /*Intro styles start*/
 .intro{
-    padding-top: 84px;
+    margin-top: 84px;
+    padding: 150px 0;
+    background: url(/HomeWork2/img/Jumbotron.svg) no-repeat center;
+    background-size: cover;
+    height: 403px;
 }
 .into__title{
 font-weight: 500;
 font-size: 72px;
 line-height: 84px;
+color: #FFFFFF;
 text-align: center;
-color: red;
-}
-.intro__background{
-width: 100%;
-height: 100%;
 }
 
 /*Intro styles end*/
 
 
+/*Intro problem start*/
+.problem{
+    display: flex;
+    background:#FFFFFF;
+    background-size: cover;
+    height: 719px;
+}
+.problem__title{
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+color: #007765;
+text-align: center;
+}
+.problem__text{
+font-size: 32px;
+line-height: 37px;
+color: #000000;
+}
+strong{
+    font-weight: bold;
+}
+p {
+    margin-top: 0.5em; 
+    margin-bottom: 1em; 
+   }
+h2{
+    margin-top: 48px;
+}
+/*Intro problem end*/
 
 
 /*Intro styles start*/
-/*Intro styles end*/
-
-/*Intro styles start*/
+.describe{
+    padding: 150px 0;
+    background: url(/HomeWork2/img/image.svg) no-repeat center;
+    background-size: cover;
+    height: 483px;
+}
 /*Intro styles end*/
 
 /*Intro styles start*/

@@ -499,7 +499,7 @@ a.anchor2 {
 .intro{
     margin-top: 84px;
     padding: 150px 0;
-    background: url(/HomeWork2/img/Jumbotron.svg) no-repeat center;
+    background: url(/img/Jumbotron.svg) no-repeat center;
     background-size: cover;
     height: 403px;
 }
@@ -537,9 +537,10 @@ color: #000000;
 /*describe styles start*/
 .describe{
     padding: 130px 0;
-    background: url(/HomeWork2/img/image.svg) no-repeat center;
+    background: url(/img/image.svg) no-repeat center;
     background-size: cover;
     height: 483px;
+     
 }
 .describe__text{
     font-style: italic;
@@ -624,3 +625,4 @@ footer {
     background-color: #333333;
     padding: 48px 0 64px; 
 }
+

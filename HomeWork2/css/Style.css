@@ -499,7 +499,7 @@ a.anchor2 {
 .intro{
     margin-top: 84px;
     padding: 150px 0;
-    background: url(/img/Jumbotron.svg) no-repeat center;
+    background: url(../img/Jumbotron.svg) no-repeat center;
     background-size: cover;
     height: 403px;
 }
@@ -537,7 +537,7 @@ color: #000000;
 /*describe styles start*/
 .describe{
     padding: 130px 0;
-    background: url(/img/image.svg) no-repeat center;
+    background: url(../img/image.svg) no-repeat center;
     background-size: cover;
     height: 483px;
      

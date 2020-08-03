@@ -1,29 +1,45 @@
-html{
-    box-sizing: border-box;
-  }
-  *, *::before,  *::after{
-    box-sizing: inherit;
-  }
-  
-  body{
-    font-family: 'Gilroy-Medium', sans-serif;
-    font-style: normal;
-    font-size: 18px;
-    line-height: 22px;
-    font-weight: normal;
-    color: #070707;
-  }
- .board{
-    display: flex;
-    flex-wrap: wrap;
-    background: grey;
-    margin: 40px;
-    max-width: 600px;
-    border: 4px double black;
- }
- .board__section{
-    flex-basis: 33.333%;
-    height: 200px;
-    background: rgb(181, 174, 199);
-    border: 2px double black;
- }
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Gilroy-Medium', sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: normal;
+  color: #070707;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  background: grey;
+  margin: 40px;
+  min-width: 600px;
+  border: 4px double black;
+}
+
+.board__section {
+  flex-basis: 33.333%;
+  height: 200px;
+  background: rgb(181, 174, 199);
+  border: 2px double black;
+}
+
+.scan {
+  min-width: 200px;
+  height: 100px;
+  padding: 40px 100px;
+  background: greenyellow;
+}
